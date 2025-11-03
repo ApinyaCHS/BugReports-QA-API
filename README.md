@@ -1,6 +1,6 @@
 # 🧩 Bug Reports QA API – Intelligent Retrieval and Summarization
 
-This project provides a **FastAPI** interface for intelligent question-answering over internal **bug reports** or **feedback documents**.  
+This project provides a **API** for intelligent question-answering over internal **bug reports**.  
 It combines **LangGraph**, **FAISS**, and **Ollama-based LLMs** to analyze, retrieve, and summarize relevant bug information.
 
 ---
@@ -131,7 +131,6 @@ api_from_notebook/
 ## 🛠 Notes
 - Requires a FAISS index built with the same embedding model.
 - Ollama server must be running before startup.
-- For production, consider using `gunicorn` with `uvicorn.workers.UvicornWorker` or Docker deployment.
 
 ---
 
